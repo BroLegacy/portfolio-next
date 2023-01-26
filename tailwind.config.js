@@ -7,6 +7,11 @@ module.exports = {
   presets: [],
   darkMode: 'media', // or 'class'
   theme: {
+    extend: {
+      fontFamily: {
+        jost: ['var(--jost-font)', 'sans-serif'],
+      }
+    },
     screens: {
       sm: '640px',
       md: '768px',

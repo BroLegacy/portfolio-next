@@ -6,8 +6,10 @@
 
 #__next {
   width: 100%;
+  font-family: Jost, sans-serif;
 }
 
 header{
   border-right: solid lightgray 1px;
+  font-family: Jost, sans-serif;
 }

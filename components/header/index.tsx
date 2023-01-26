@@ -1,4 +1,5 @@
 import { FC } from 'react';
+import Link from "next/link";
 
 const Index: FC = () => {
     return (
@@ -8,10 +9,10 @@ const Index: FC = () => {
                     <span className={"text-4xl font-bold"}>Menu</span>
                     <nav className={"pt-8"}>
                         <ul className={"text-left text-gray-700"}>
-                            <li className={"pb-1.5"}><a className={"text-base hover:text-black"} href="/">Accueil</a></li>
-                            <li className={"pb-1.5"}><a className={"text-base hover:text-black"} href="/contact">Contact</a></li>
-                            <li className={"pb-1.5"}><a className={"text-base hover:text-black"} href="/about">À propos</a></li>
-                            <li><a className={"text-base"} href="/work">Projets</a></li>
+                            <li className={"pb-1.5"}><Link className="text-base hover:text-black" href="/">Accueil</Link></li>
+                            <li className={"pb-1.5"}><Link className="text-base hover:text-black" href="/contact">Contact</Link></li>
+                            <li className={"pb-1.5"}><Link className="text-base hover:text-black" href="/about">À propos</Link></li>
+                            <li><Link className="text-base" href="/work">Projets</Link></li>
                         </ul>
                         <span className={"text-gray-700 text-xs font-light flex flex-nowrap pt-4"}>© 2023 Corantyn Vignon</span>
                     </nav>
