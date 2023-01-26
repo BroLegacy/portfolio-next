@@ -1,4 +1,6 @@
 import { FC } from 'react';
+import Image from "next/image";
+import screen from "@/assets/screen.png";
 
 const WorkComponent: FC = () => {
     return (
@@ -27,7 +29,7 @@ const WorkComponent: FC = () => {
                 </div>
                 <div className={"grid grid-cols-2 gap-y-8 gap-x-2"}>
                     <div>
-                        <img className={"border rounded"} src={"/screen.png"} alt={"arrow-right"} />
+                        <Image className="border rounded" src={screen} alt="chevron"/>
                         <div className={"flex justify-between pt-2"}>
                             <span className={"font-light"}>Mon portfolio</span>
                             <span className={"py-2 px-4 text-sm bg-gray-100 rounded-full"}>JS</span>
@@ -35,7 +37,7 @@ const WorkComponent: FC = () => {
                         <span className={"font-light"}>2022/07/31</span>
                     </div>
                     <div>
-                        <img className={"border rounded"} src={"/screen.png"} alt={"arrow-right"} />
+                        <Image className="border rounded" src={screen} alt="chevron"/>
                         <div className={"flex justify-between pt-2"}>
                             <span className={"font-light"}>Mon portfolio</span>
                             <span className={"py-2 px-4 text-sm bg-gray-100 rounded-full"}>JS</span>
@@ -43,7 +45,7 @@ const WorkComponent: FC = () => {
                         <span className={"font-light"}>2022/07/31</span>
                     </div>
                     <div>
-                        <img className={"border rounded"} src={"/screen.png"} alt={"arrow-right"} />
+                        <Image className="border rounded" src={screen} alt="chevron"/>
                         <div className={"flex justify-between pt-2"}>
                             <span className={"font-light"}>Mon portfolio</span>
                             <span className={"py-2 px-4 text-sm bg-gray-100 rounded-full"}>JS</span>
@@ -51,7 +53,7 @@ const WorkComponent: FC = () => {
                         <span className={"font-light"}>2022/07/31</span>
                     </div>
                     <div>
-                        <img className={"border rounded"} src={"/screen.png"} alt={"arrow-right"} />
+                        <Image className="border rounded" src={screen} alt="chevron"/>
                         <div className={"flex justify-between pt-2"}>
                             <span className={"font-light"}>Mon portfolio</span>
                             <span className={"py-2 px-4 text-sm bg-gray-100 rounded-full"}>JS</span>

@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 
+import propImg from "@/assets/propal.jpg";
+
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -15,7 +17,7 @@ export default function Home() {
       </Head>
       <main className={"h-full bg-gray-50 flex items-center"}>
           <div className={"flex m-auto items-center justify-center gap-[3vw]"}>
-              <img src={"/propal1.JPG"} alt={"hero image"} className={"w-[15%] object-cover rounded-[10px]"}/>
+              <Image className="w-[15%] object-cover rounded-[10px]" src={propImg} alt="Hero Image"/>
               <div className={"max-w-[50%]"}>
                   <h1 className={"text-4xl font-bold pb-4"}>Corantyn Vignon</h1>
                   <p className={"text-base text-gray-700"}>Développeur front-end junior avec une solide compréhension des technologies HTML, CSS, JavaScript, PHP et les frameworks PHP, JS. Passionné par la création d'expériences utilisateur fluides et attrayantes.</p>
