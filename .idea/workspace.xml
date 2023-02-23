@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d99d1d5a-7251-4074-b542-3afdc4a7c65f" name="Changes" comment="add api routes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/api/works/[_id].ts" beforeDir="false" afterPath="$PROJECT_DIR$/pages/api/works/[_id].ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/api/works/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pages/api/works/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +76,7 @@
       <workItem from="1674742144464" duration="6764000" />
       <workItem from="1675343300000" duration="4148000" />
       <workItem from="1677140938800" duration="14035000" />
-      <workItem from="1677164342699" duration="298000" />
+      <workItem from="1677164342699" duration="1142000" />
     </task>
     <task id="LOCAL-00001" summary="changement des balise img">
       <created>1674745290224</created>
