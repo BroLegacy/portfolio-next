@@ -4,24 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d99d1d5a-7251-4074-b542-3afdc4a7c65f" name="Changes" comment="+- link">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/@types/mongoose-connection.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/@types/work.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/layout-component/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/api/works/[_id].ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/api/works/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/mongodb/db-connect/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/mongodb/work.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_document.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_document.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/about/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/contact/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/work/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/work/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
+    <list default="true" id="d99d1d5a-7251-4074-b542-3afdc4a7c65f" name="Changes" comment="add api routes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/api/works/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pages/api/works/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +74,8 @@
       <updated>1674742142831</updated>
       <workItem from="1674742144464" duration="6764000" />
       <workItem from="1675343300000" duration="4148000" />
-      <workItem from="1677140938800" duration="11027000" />
+      <workItem from="1677140938800" duration="14035000" />
+      <workItem from="1677164342699" duration="298000" />
     </task>
     <task id="LOCAL-00001" summary="changement des balise img">
       <created>1674745290224</created>
@@ -125,6 +111,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changement des balise img" />
     <MESSAGE value="+- link" />
-    <option name="LAST_COMMIT_MESSAGE" value="+- link" />
+    <MESSAGE value="add api routes" />
+    <option name="LAST_COMMIT_MESSAGE" value="add api routes" />
   </component>
 </project>
