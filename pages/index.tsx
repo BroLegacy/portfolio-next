@@ -11,7 +11,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={"h-full bg-gray-50 flex items-center"}>
+      <main className="h-full bg-gray-50 flex items-center w-3/4">
           <div className={"flex m-auto items-center justify-center gap-[3vw]"}>
               <Image className="w-[15%] object-cover rounded-[10px]" src={propImg} alt="Hero Image"/>
               <div className={"max-w-[50%]"}>

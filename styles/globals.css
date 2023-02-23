@@ -7,6 +7,8 @@
 #__next {
   width: 100%;
   font-family: Jost, sans-serif;
+  display: flex;
+  height: 100vh;
 }
 
 header{

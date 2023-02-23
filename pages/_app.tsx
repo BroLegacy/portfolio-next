@@ -1,6 +1,7 @@
 import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
 import {Jost} from "@next/font/google";
+import LayoutComponent from "@/components/layout-component";
 const jost = Jost(
     {
       subsets: ['latin'],
@@ -18,7 +19,9 @@ export default function App({ Component, pageProps }: AppProps) {
           }
           `}
         </style>
-        <Component {...pageProps} />
+          <LayoutComponent>
+                <Component {...pageProps} />
+          </LayoutComponent>
       </>
   )
 }
