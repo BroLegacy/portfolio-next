@@ -39,9 +39,6 @@ const Admin: FC = () => {
                 <div>
                     <h1 className="m-[40px] text-xl">List travaux</h1>
                     <ul className="m-[100px] list-disc">
-                        <li className="p-[15px]">traveaux</li>
-                        <li className="p-[15px]">traveaux</li>
-                        <li className="p-[15px]">traveaux</li>
                         {works.map((work) => (
                             <li className="p-[15px]" key={work._id}>
                                 {work.title}
