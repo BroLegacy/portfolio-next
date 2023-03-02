@@ -37,11 +37,13 @@ const Admin: FC = () => {
         return (
             <>
                 <div>
-                    <h1>List travaux</h1>
-                    <Link href={"/admin/works/create"}>Créer un travail</Link>
-                    <ul>
+                    <h1 className="m-[40px] text-xl">List travaux</h1>
+                    <ul className="m-[100px] list-disc">
+                        <li className="p-[15px]">traveaux</li>
+                        <li className="p-[15px]">traveaux</li>
+                        <li className="p-[15px]">traveaux</li>
                         {works.map((work) => (
-                            <li key={work._id}>
+                            <li className="p-[15px]" key={work._id}>
                                 {work.title}
                                 <Link href={`/admin/works/${work._id}`}>
                                     <a>Modifier</a>
@@ -50,6 +52,7 @@ const Admin: FC = () => {
                             </li>
                         ))}
                     </ul>
+                    <Link href={"/admin/works/create"}>Créer un travail</Link>
                 </div>
             </>
         )
