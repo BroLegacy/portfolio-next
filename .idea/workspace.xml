@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d99d1d5a-7251-4074-b542-3afdc4a7c65f" name="Changes" comment="add api routes">
+      <change afterPath="$PROJECT_DIR$/components/admin/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/admin/works/[_id].tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/admin/works/create/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/admin/works/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/admin/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/admin/works/create/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/admin/works/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/api/works/[_id].ts" beforeDir="false" afterPath="$PROJECT_DIR$/pages/api/works/[_id].ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/api/works/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/pages/api/works/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +31,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -58,11 +66,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/@types" />
-      <recent name="$PROJECT_DIR$/@types/work" />
-      <recent name="$PROJECT_DIR$/utils/mongodb/db-connect" />
-      <recent name="$PROJECT_DIR$/utils/mongodb" />
-      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/components/admin/works" />
+      <recent name="$PROJECT_DIR$/components/admin" />
+      <recent name="$PROJECT_DIR$/pages/admin/works" />
+      <recent name="$PROJECT_DIR$/pages/admin" />
+      <recent name="$PROJECT_DIR$/components" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -76,7 +84,9 @@
       <workItem from="1674742144464" duration="6764000" />
       <workItem from="1675343300000" duration="4148000" />
       <workItem from="1677140938800" duration="14035000" />
-      <workItem from="1677164342699" duration="1142000" />
+      <workItem from="1677164342699" duration="1465000" />
+      <workItem from="1677165991225" duration="11055000" />
+      <workItem from="1677510147910" duration="1784000" />
     </task>
     <task id="LOCAL-00001" summary="changement des balise img">
       <created>1674745290224</created>
