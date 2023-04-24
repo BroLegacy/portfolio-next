@@ -56,6 +56,7 @@ const CreateWorkForm: React.FC = () => {
         setIsUploading(true);
 
         if (result.info) {
+            // @ts-ignore
             setWork(prevWork => ({
                 ...prevWork,
                 coverImage: result.info.public_id,
