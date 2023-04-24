@@ -4,14 +4,8 @@ export interface IWork {
 
     title: string
 
-    seo: { title: string; description: string }
-
-    slug: string
+    tag: string
 
     coverImage: string
-
-    description: string
-
-    published: boolean
 
 }

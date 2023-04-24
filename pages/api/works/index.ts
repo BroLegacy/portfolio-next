@@ -17,12 +17,13 @@ const handler = async (req: NextApiRequest, res: NextApiResponse<Data>) => {
     if (req.method === 'POST') {
         try {
             dbConnect();
-            const { title, seo, slug, description, coverImage } = req.body
-            const work = await WorkModel.create({ title, seo, slug, description, coverImage })
+            const { title, tag, coverImage } = req.body
+            console.log('api-post' , req.body);
+            const work = await WorkModel.create({ title, tag, coverImage })
             // @ts-ignore
             res.status(201).json({ success: true, data: work })
         } catch (error) {
-            console.error(error)
+            console.error('api-post-error ',error)
             // @ts-ignore
             res.status(400).json({ success: false, message: 'Error creating new work item' })
         }
