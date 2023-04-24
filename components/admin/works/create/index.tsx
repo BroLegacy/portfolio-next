@@ -43,6 +43,7 @@ const CreateWorkForm: React.FC = () => {
 
             alert('Work created successfully!');
         } catch (error) {
+            // @ts-ignore
             alert('Error creating work: ' + error.message);
         }
     };
