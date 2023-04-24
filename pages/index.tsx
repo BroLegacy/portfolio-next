@@ -16,7 +16,7 @@ export default function Home() {
               <Image className="w-[15%] object-cover rounded-[10px]" src={propImg} alt="Hero Image"/>
               <div className={"max-w-[50%]"}>
                   <h1 className={"text-4xl font-bold pb-4"}>Corantyn Vignon</h1>
-                  <p className={"text-base text-gray-700"}>Développeur front-end junior avec une solide compréhension des technologies HTML, CSS, JavaScript, PHP et les frameworks PHP, JS. Passionné par la création d'expériences utilisateur fluides et attrayantes.</p>
+                  <p className={"text-base text-gray-700"}>Développeur front-end junior avec une solide compréhension des technologies HTML, CSS, JavaScript, PHP et les frameworks PHP, JS. Passionné par la création d&apos;expériences utilisateur fluides et attrayantes.</p>
               </div>
           </div>
         </main>
